@@ -1,0 +1,24 @@
+{
+  "name": "login-engine",
+  "version": "0.0.1",
+  "description": "Login system for all the engine/APIProtocol modules",
+  "private": true,
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LDEngine/login-engine.git"
+  },
+  "keywords": [
+    "mastercoin",
+    "bitcoin"
+  ],
+  "author": "",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "~3.4.8",
+    "mongoose": "~3.8.8",
+    "node-oauth2-server": "~2.1.0"
+  }
+}
