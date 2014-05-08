@@ -49,7 +49,7 @@ io.set('authorization', function (handshakeData, accept) {
 
 Using sessions with this auth module:
 ==========
-1. POST /create
+1. POST ``/create``
 	Creates a new user account.  Submit the following as content:
 	```
 	{
@@ -77,7 +77,7 @@ Using sessions with this auth module:
 		}
 	}
 	```
-2. POST /login
+2. POST ``/login``
 	Logs in a user to an existing account.  Submit the following as content:
 	```
 	{
@@ -103,7 +103,7 @@ Using sessions with this auth module:
 	}
 	```
 
-3. GET /loggedIn
+3. GET ``/loggedIn``
 	Creates a new user account.  Submit the following as content:
 	```
 	?session=<session key>
