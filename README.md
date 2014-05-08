@@ -124,3 +124,12 @@ Using sessions with this auth module:
 		}
 	}
 	```
+
+Mocking this Module
+==============
+
+It can be inconvenient to work against a functional login system, and even more so to run automated tests against such a system.  For simplicity's sake, applications built using this module can mock it by providing the following:
+
+1. A configuration file which points authentication calls to the local system (``localhost:3000`` instead of ``id.mylivesystem.com``, for example)
+2. A local endpoint that accepts a user profile from ``/create`` and stores it in memory (or in a database).
+3. Local endpoints for ``/login`` and ``/loggedIn`` which return the user profile stored above.
